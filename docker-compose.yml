@@ -1,0 +1,6 @@
+version: '3'
+services:
+  registration-login:
+    image: auth-service
+    ports:
+    - 8080:8080
